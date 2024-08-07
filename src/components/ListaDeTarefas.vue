@@ -1,5 +1,6 @@
 <script>
-const props = defineProps(['tarefas'])
+    import { defineProps } from 'vue';
+    const props = defineProps(['tarefas'])
 </script>
 <template>
     <ul class="list-group mt-4">

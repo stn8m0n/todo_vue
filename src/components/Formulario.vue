@@ -1,4 +1,5 @@
 <script>
+    import { defineProps } from 'vue';
     const props = defineProps(['cadastraTarefa' , 'tarefaTemp', 'trocarFiltro', 'editaTarefaTemp'])
 </script>
 <template>
